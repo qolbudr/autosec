@@ -13,7 +13,7 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium by Baimstore
 ```
-apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && apt install figlet -y wget -q https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/ubu20-deb10-stable.sh && chmod +x setup.sh && ./setup.sh
+apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && apt install figlet -y wget -q https://raw.githubusercontent.com/qolbudr/autosec/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
@@ -21,7 +21,7 @@ apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && ap
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://raw.githubusercontent.com/qolbudr/autosec/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 ## TESTED ON OS

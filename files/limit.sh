@@ -1,14 +1,13 @@
 #!/bin/bash
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# System Request : Debian 9+/Ubuntu 18.04+/20+
-# Develovers » Gemilangkinasih࿐
-# Email      » gemilangkinasih@gmail.com
-# telegram   » https://t.me/gemilangkinasih
-# whatsapp   » wa.me/+628984880039
+#               WALAWEEE AUTOSCRIPT
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Gemilangkinasih࿐
+# Develovers | _patrick
+# Email      | anjeaye1231@gmail.com
+# Telegram   | https://t.me/oypatrick
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-REPO="https://https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/"
+REPO="https://raw.githubusercontent.com/qolbudr/autosec/main/"
 wget -q -O /etc/systemd/system/limitvmess.service "${REPO}files/limitvmess.service" && chmod +x limitvmess.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limitvless.service "${REPO}files/limitvless.service" && chmod +x limitvless.service >/dev/null 2>&1
 wget -q -O /etc/systemd/system/limittrojan.service "${REPO}files/limittrojan.service" && chmod +x limittrojan.service >/dev/null 2>&1
