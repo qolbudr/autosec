@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#               WALAWEEE AUTOSCRIPT
+#               AUTOSEC AUTOSCRIPT
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # Develovers | _patrick
 # Email      | anjeaye1231@gmail.com
@@ -35,7 +35,7 @@ clear && clear && clear
 clear;clear;clear
 
 # // Banner
-figlet WALAWEEE | lolcat
+figlet "       AUTOSEC" | lolcat
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e "Developer | _patrick"
 echo -e "Email     | anjeaye1231@gmail.com"
