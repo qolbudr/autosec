@@ -6,7 +6,7 @@ $mode = $_GET['mode'];
 
 if($mode == "ssh") 
 {
-    exec('sudo bash /var/www/api/do/ssh.sh '.$username.' '.$password.' 10 1 2', $output);
+    exec('sudo bash /var/www/api/shell/ssh.sh '.$username.' '.$password.' 10 1 2', $output);
     return print_r(join("<br/>", $output));
 }
 
