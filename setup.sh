@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#               Walaweee Autoscript
+#               WALAWEEE AUTOSCRIPT
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Develovers | Walaweee
+# Develovers | _patrick
 # Email      | anjeaye1231@gmail.com
-# Telegram   | https://t.me/itswalaweee
+# Telegram   | https://t.me/oypatrick
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Green="\e[92;1m"
@@ -13,14 +13,17 @@ RED="\033[31m"
 YELLOW="\033[33m"
 BLUE="\033[36m"
 FONT="\033[0m"
+BOLD="\033[1m"
 GREENBG="\033[42;37m"
 REDBG="\033[41;37m"
-OK="${Green}  »${FONT}"
+OK="${Green}»${FONT}"
 ERROR="${RED}[ERROR]${FONT}"
 GRAY="\e[1;30m"
 NC='\e[0m'
 red='\e[1;31m'
 green='\e[0;32m'
+YELLOWH="\033[43m"
+BLUEH="\033[46m"
 
 clear
 # // Exporint IP AddressInformation
@@ -34,10 +37,10 @@ clear;clear;clear
 # // Banner
 figlet WALAWEEE | lolcat
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer » BAIM࿐${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
-echo -e "  » This Will Quick Setup VPN Server On Your Server"
-echo -e "  Pembuat : ${green}BAIM࿐® ${NC}"
-echo -e "  HAK CIPTA BAIM࿐ ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e "Developer | _patrick"
+echo -e "Email     | anjeaye1231@gmail.com"
+echo -e "Telegram  | https://t.me/oypatrick"
+echo -e "Version   | 1.0 (${green}Stable${NC})"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
@@ -102,24 +105,21 @@ secs_to_human() {
 }
 ### Status
 function print_ok() {
-    echo -e "${OK} ${BLUE} $1 ${FONT}"
+    echo -e "${BOLD}${BLUEH}  $1  ${FONT}"
 }
+
 function print_install() {
-	echo -e "${green} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ${FONT}"
-    echo -e "${YELLOW} » $1 ${FONT}"
-	echo -e "${green} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ${FONT}"
+    echo -e "${BOLD}${YELLOWH}  $1  ${FONT}"
     sleep 1
 }
 
 function print_error() {
-    echo -e "${ERROR} ${REDBG} $1 ${FONT}"
+    echo -e "${ERROR} ${REDBG}  $1  ${FONT}"
 }
 
 function print_success() {
     if [[ 0 -eq $? ]]; then
-		echo -e "${green} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ${FONT}"
-        echo -e "${Green} » $1 berhasil dipasang"
-		echo -e "${green} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ${FONT}"
+        echo -e "${BOLD}${GREENBG}  $1 berhasil dipasang  ${NC}"
         sleep 2
     fi
 }
@@ -243,17 +243,20 @@ clear
 function pasang_domain() {
 echo -e ""
 clear
-echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e " \e[1;32mPlease Select a Domain Type Below \e[0m"
-echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e " \e[1;32m      Please Select a Domain Type Below \e[0m"
+echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e " \e[1;32m1)\e[0m Menggunakan Domain Sendiri (Recommended)"
 echo -e " \e[1;32m2)\e[0m Menggunakan Domain Random"
 echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e ""
 read -p " Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
 if [[ $host == "1" ]]; then
-echo -e " \e[1;32mPlease Enter Your Subdomain $NC"
-echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+clear
+echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo -e " \e[1;32m       Please Enter Your Subdomain $NC"
+echo -e " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e ""
 read -p " Masukan Domain : " host1
 echo -e ""
@@ -280,7 +283,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/Register"
+izinsc="${REPO}Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -543,7 +546,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/Baimkuy/Autoscript/GM/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q "${REPO}config/fv-tunnel" && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
@@ -915,7 +918,7 @@ print_install "Enable Service"
 
 # Fingsi Install Script
 function instal(){
-clear
+    clear
     first_setup
     nginx_install
     base_package
@@ -939,7 +942,7 @@ clear
     menu
     profile
     enable_services
-    restart_system
+    # restart_system
 }
 instal
 echo ""
