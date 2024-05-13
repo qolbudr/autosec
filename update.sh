@@ -35,7 +35,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/qolbudr/autosec/main/menu/menu.zip
+    wget https://script.walaweee.my.id/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin

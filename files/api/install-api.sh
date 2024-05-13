@@ -1,4 +1,4 @@
-REPO="https://raw.githubusercontent.com/qolbudr/autosec/main/"
+REPO="https://script.walaweee.my.id/"
 
 apt-get install php7.4-fpm
 wget -O /etc/nginx/sites-available/api "${REPO}files/api/api.conf" >/dev/null 2>&1

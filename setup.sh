@@ -100,7 +100,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/qolbudr/autosec/main/"
+    REPO="https://script.walaweee.my.id/"
 
 ####
 start=$(date +%s)
