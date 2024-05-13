@@ -1,12 +1,16 @@
 #!/bin/bash
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-#               AUTOSEC AUTOSCRIPT
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Develovers | _patrick
-# Email      | anjeaye1231@gmail.com
-# Telegram   | https://t.me/oypatrick
-# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#                    _                      
+#         __ _ _   _| |_ ___  ___  ___  ___ 
+#        / _` | | | | __/ _ \/ __|/ _ \/ __|
+#       | (_| | |_| | || (_) \__ \  __/ (__ 
+#        \__,_|\__,_|\__\___/|___/\___|\___|
+# ~━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━~
+#   Develovers  : _patrick
+#   Email       : anjeaye1231@gmail.com
+#   Telegram    : https://t.me/oypatrick
+# ~━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━~
 
 Green="\e[92;1m"
 RED="\033[31m"
@@ -37,7 +41,7 @@ clear;clear;clear
 # // Banner
 figlet "           autosec" | lolcat
 echo -e "${NC}~─────────────────────────────────────────────────────────~"
-echo -e "${NC}Developer : _patrick"
+echo -e "${NC}. Developer : _patrick"
 echo -e "${NC}Email     : anjeaye1231@gmail.com"
 echo -e "${NC}Telegram  : ${BLUE}https://t.me/oypatrick"
 echo -e "${NC}Version   : 1.0 (${green}Stable${NC})"
